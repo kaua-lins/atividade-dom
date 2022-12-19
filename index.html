@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="atividade-container">
+        <div class="atividade-card">
+            <h1 class="atividade-titulo">1 Questão</h1>
+
+            <input type="text" id="valorUm" placeholder="Primeiro valor">
+
+            <input type="text" id="valorDois" placeholder="Segundo valor">
+
+            <input type="button" id="primeiroBotao" value="Dividir" onclick="primeiraQuestao ()">
+
+            <div id="primeiraResult"></div>
+        </div>
+
+        <div class="atividade-card">
+            <h1 class="atividade-titulo">2 Questão</h1>
+
+            <input type="text" id="medidaUm" placeholder="Primeira medida">
+            <input type="text" id="medidaDois" placeholder="Segunda medida">
+            <input type="text" id="medidaTres" placeholder="Terceira medida">
+
+            <input type="button" id="segundoBotao" value="Tirar medida" onclick="segundaQuestao ()"> 
+
+            <div id="segundaResult">
+                <span id="segundaImage"></span>
+            </div>
+        </div>
+
+        <div class="atividade-card">
+            <h1 class="atividade-titulo">3 Questão</h1>
+        </div>
+
+        <div class="atividade-card">
+            <h1 class="atividade-titulo">4 Questão</h1>
+        </div>
+
+        <div class="atividade-card">
+            <h1 class="atividade-titulo">5 Questão</h1>
+        </div>
+
+        <div class="atividade-card">
+            <h1 class="atividade-titulo">6 Questão</h1>
+        </div>
+<!-- 
+        <div class="atividade-card">
+            <h1 class="atividade-titulo"></h1>
+        </div>
+
+        <div class="atividade-card">
+            <h1 class="atividade-titulo"></h1>
+        </div> -->
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
